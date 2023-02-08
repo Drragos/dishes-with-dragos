@@ -13,9 +13,9 @@ main {
 }
 
 .title {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    font-family: ;
+    font-family: 'Great Vibes', cursive;
 }
 
 .recipes {
@@ -35,14 +35,27 @@ main {
 
 .card1 {
     flex: 1;
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    height: 700px;
 }
 
 .card2 {
     flex: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    height: 700px;
 }
 
 .card3 {
     flex: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+    height: 700px;
 }
 
 .potato {
@@ -58,4 +71,8 @@ main {
 .orange {
     width: 200px;
     height: auto;
+}
+
+.card-content {
+    font-family:'Thasadith', sans-serif;
 }
