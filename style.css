@@ -6,5 +6,56 @@
 
 main {
     min-height: 100vh;
-    background: linear-gradient(to right top, #f4b88e, #dba674);
+    background: linear-gradient(to right top, #f1cbb0, #dbb28b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    font-family: ;
+}
+
+.recipes {
+    min-height: 80vh;
+    width: 60%;
+    background-color: white;
+    background: linear-gradient(
+        to right bottom,
+            rgba(220, 223, 238, 0.7), 
+            rgba(250, 236, 222, 0.6)
+            );
+    display: flex; 
+    align-items: center;    
+    justify-content: space-evenly;   
+    text-align: center;
+}
+
+.card1 {
+    flex: 1;
+}
+
+.card2 {
+    flex: 1;
+}
+
+.card3 {
+    flex: 1;
+}
+
+.potato {
+    width: 200px;
+    height: auto;
+}
+
+.choco {
+    width: 200px;
+    height: auto;
+}
+
+.orange {
+    width: 200px;
+    height: auto;
 }
