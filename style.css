@@ -119,3 +119,11 @@ main {
 .card-content {
     font-family:'Thasadith', sans-serif;
 }
+
+a:link, a:visited, a:hover, a:active {
+    border:none;
+    outline:none;
+    text-decoration:none;
+    color:black;
+  }
+
