@@ -211,7 +211,15 @@ a:link, a:visited, a:hover, a:active {
     font-size: 2rem;
 }
 
+.left-content2 h2 {
+    font-size: 2rem;
+}
+
 .left-content h3 {
+    font-size: 1.7rem;
+}
+
+.left-content2 h3 {
     font-size: 1.7rem;
 }
 
