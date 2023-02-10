@@ -30,39 +30,39 @@ main {
 .card1 {
     background: linear-gradient(
         to right bottom,
-        rgba(223, 213, 213, 0.7),
-        rgba(241, 218, 198, 0.8));
+        rgba(248, 172, 85, 0.6),
+        rgba(253, 187, 111, 0.5));
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 20px;
     height: 700px;
     width: 400px;
     padding: 50px;
+    box-shadow: 4px 4px 14px;
     transition: 
     background-color 0.5s ease-out 50ms, 
     width 0.5s ease-out 50ms,
     height 0.5s ease-out 50ms;
-
 }
 
 .card1:hover {
     height: 750px;
     width: 450px;
     background-color: white;
-    
 }
 
 .card2 {
     background: linear-gradient(
         to right bottom,
-        rgba(223, 213, 213, 0.7),
-        rgba(241, 218, 198, 0.8));
+        rgba(248, 172, 85, 0.6),
+        rgba(253, 187, 111, 0.5));
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 20px;
     height: 700px;
     width: 400px;
     padding: 50px;
+    box-shadow: 4px 4px 14px;
     transition: 
     background-color 0.5s ease-out 50ms, 
     width 0.5s ease-out 50ms,
@@ -78,14 +78,15 @@ main {
 .card3 {
     background: linear-gradient(
         to right bottom,
-        rgba(223, 213, 213, 0.7),
-        rgba(241, 218, 198, 0.8));
+        rgba(248, 172, 85, 0.6),
+        rgba(253, 187, 111, 0.5));
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 20px;
     height: 700px;
     width: 400px;
     padding: 50px;
+    box-shadow: 4px 4px 14px;
     transition: 
     background-color 0.5s ease-out 50ms, 
     width 0.5s ease-out 50ms,
