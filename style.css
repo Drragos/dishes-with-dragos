@@ -27,6 +27,11 @@ main {
     text-align: center;
 }
 
+/* This section contains the styling for the individual recipe cards
+A big part of it is the transition animation which is very fun to play
+around with. The key thing here is to add a condition for when the mouse
+hovers over the specified div, as we can see below (ex .card1:hover) */
+
 .card1 {
     background: linear-gradient(
         to right bottom,
@@ -121,10 +126,106 @@ main {
     font-family:'Thasadith', sans-serif;
 }
 
+/* This next one is important! It effectively disables any 
+unwanted styling of the text due to the parent div containing 
+a link to other pages. The text will remain black and won't have
+that unappealing link text look with the underline and blue color */
+
 a:link, a:visited, a:hover, a:active {
     border:none;
     outline:none;
     text-decoration:none;
     color:black;
   }
+
+  /* The following section contains the styling for the two divs for the individual recipes template */
+
+.left {
+    min-height: 150vh;
+    width: 80%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;   
+    text-align: left;
+    padding-top: 30px;
+}
+
+.right {
+    min-height: 140vh;
+    width: 80%;
+    display: flex; 
+    align-items: top;    
+    justify-content: left;   
+    text-align: left;
+}
+
+/* Right side content styling */
+
+.right-content {
+    height: 700px;
+    width: 500px;
+    padding: 10px;
+}
+
+.right-content h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.right-content p {
+    font-size: 1.3rem;
+}
+
+.right-content h2 {
+    font-size: 2rem;
+}
+
+.right-content ol {
+    font-size: 1.2rem;
+}
+
+.right-content h3 {
+    font-size: 1.7rem;
+}
+
+.right-content ul {
+    font-size: 1.1rem;
+    list-style-type: square;
+}
+
+/* Left side content styling */
+
+.photo {
+    width: 600px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.left-content2 {
+    position: relative;
+    bottom: 120px;
+}
+
+.left-content h2 {
+    font-size: 2rem;
+}
+
+.left-content h3 {
+    font-size: 1.7rem;
+}
+
+.left-content ul {
+    font-size: 1.1rem;
+    list-style-type: none;  
+}
+
+.left-content2 ul {
+    font-size: 1.1rem;
+    list-style-type: none;  
+}
+
+
+
+
 
