@@ -37,7 +37,7 @@ main {
     border-radius: 20px;
     height: 700px;
     width: 400px;
-    padding: 50px;
+    padding: 40px;
     box-shadow: 4px 4px 14px;
     transition: 
     background-color 0.5s ease-out 50ms, 
@@ -46,8 +46,8 @@ main {
 }
 
 .card1:hover {
-    height: 750px;
-    width: 450px;
+    height: 730px;
+    width: 430px;
     background-color: white;
 }
 
@@ -61,7 +61,7 @@ main {
     border-radius: 20px;
     height: 700px;
     width: 400px;
-    padding: 50px;
+    padding: 40px;
     box-shadow: 4px 4px 14px;
     transition: 
     background-color 0.5s ease-out 50ms, 
@@ -70,8 +70,8 @@ main {
 }
 
 .card2:hover {
-    height: 750px;
-    width: 450px;
+    height: 730px;
+    width: 430px;
     background-color: white;
 }
 
@@ -94,8 +94,8 @@ main {
 }
 
 .card3:hover {
-    height: 750px;
-    width: 450px;
+    height: 730px;
+    width: 430px;
     background-color: white;
 }
 
