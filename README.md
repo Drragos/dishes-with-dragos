@@ -1,4 +1,4 @@
-# odin-recipes
+# Dishes with Dragos
 
 This is my first project for The Odin Project - a recipe website, where I showcase some of my favorite recipes I like to cook. 
 
