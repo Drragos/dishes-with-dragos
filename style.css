@@ -16,6 +16,11 @@ main {
     font-size: 25px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
+    background-color: #95bde1;
+    color: rgb(252, 218, 132);
+    border-style: groove;
+    border-width: 5px;
+    border-color: linear-gradient(to right top, #85c0f3, #6cb7f8);
 }
 
 .recipes {
@@ -231,6 +236,15 @@ a:link, a:visited, a:hover, a:active {
 .left-content2 ul {
     font-size: 1.1rem;
     list-style-type: none;  
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
 }
 
 
