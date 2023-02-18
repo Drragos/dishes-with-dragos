@@ -25,6 +25,10 @@ main {
     border-color: linear-gradient(to right top, #85c0f3, #6cb7f8);
 }
 
+#dishes {
+    color: rgb(252, 227, 165);
+}
+
 .header-right {
     position: absolute;
     top: 0;
@@ -314,7 +318,7 @@ a:link, a:visited, a:hover, a:active {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
 
