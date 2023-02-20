@@ -25,7 +25,7 @@ main {
     border-color: linear-gradient(to right top, #85c0f3, #6cb7f8);
 }
 
-#dishes {
+#dishes, #about, #privacy, #terms, #recipes, #articles, #videos, #shop, #about, #about2 {
     color: rgb(252, 227, 165);
 }
 
