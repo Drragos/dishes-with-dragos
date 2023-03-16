@@ -22,7 +22,7 @@ main {
   color: rgb(252, 227, 165);
   border-style: groove;
   border-width: 5px;
-  border-color: linear-gradient(to right top, #85c0f3, #6cb7f8);
+  border-color: #fce3a5;
 }
 
 #dishes,
